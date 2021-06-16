@@ -225,15 +225,14 @@ async def upstream(event):
 CMD_HELP.update(
     {
         "update": "**Modules** `update`\
-        \n\n  **Syntax :** `.update`\
-        \n  **Function : **Checks if the main userbot repository has any updates\
-        \n and shows a changelog if so\
-        \n\n  **Syntax :** `.update now`\
-        \n  **Function : **Update your userbot,\
-        \n if there are any updates in your userbot repository\
-        \n\n  **Syntax :** `.update deploy`\
-        \n  **Function : **Update Deploy your userbot\
-        \n This will triggered deploy always, even no updates\
+        \n\n  •  **Syntax :** `.update`\
+        \n  •  **Function : **Checks if the main userbot repository has any updates\
+        \n\n  •  **Syntax :** `.update now`\
+        \n  •  **Function : **Update your userbot,\
+        \n\n\n if there are any updates in your userbot repository\
+        \n\n  •  **Syntax :** `.update deploy`\
+        \n  •  **Function : **Update Deploy your userbot\
+        \n\n\n This will triggered deploy always, even no updates\
     "
     }
 )
