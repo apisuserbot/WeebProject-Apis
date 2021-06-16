@@ -277,11 +277,11 @@ async def type_afk_is_not_true(notafk):
 CMD_HELP.update(
     {
         "afk": "**Modules** `afk`\
-        \n\n  **Syntax :** `.afk` <reason> or not\
-        \n  **Function : **Sets you as afk.\nReplies to anyone who tags/PM\
-        \n you telling them that you are AFK(reason)\
-        \n\n  **Syntax :** `.unoff`\
-        \n  **Function : **Switches you off from AFK mode\
+        \n\n  •  **Syntax :** `.afk` <reason> or not\
+        \n  •  **Function : **Sets you as afk.\nReplies to anyone who tags/PM\
+        \n\n\n you telling them that you are AFK(reason)\
+        \n\n  •  **Syntax :** `.unoff`\
+        \n  •  **Function : **Switches you off from AFK mode\
     "
     }
 )
