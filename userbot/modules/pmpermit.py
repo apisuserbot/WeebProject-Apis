@@ -413,28 +413,27 @@ async def add_pmsg(cust_msg):
 
 CMD_HELP.update(
     {
-        "pmpermit": "**Modules** `approve`\
-        \n\n  •  **Syntax :** `.approve`\
-        \n  •  **Function : **Approves the mentioned/replied person to PM\
-        \n\n  •  **Syntax :** `.disapprove`\
-        \n  •  **Function : **Disapproves the mentioned/replied person to PM\
-        \n\n  •  **Syntax :** `.block`\
-        \n  •  **Function : **Blocks the person\
-        \n\n  •  **Syntax :** `.unblock`\
-        \n  •  **Function : **Unblocks the person so they can PM you\
-        \n\n  •  **Syntax :** `.notifoff`\
-        \n  •  **Function : **Clears/Disables any notifications of unapproved PM\
-        \n\n  •  **Syntax :** `.notifon`\
-        \n  •  **Function : **Allows notifications for unapproved PM\
-        \n\n  •  **Syntax :** `.set pm_msg` <reply to msg>\
-        \n  •  **Function : **Set your own Unapproved message\
-        \n\n  •  **Syntax :** `.get pm_msg`\
-        \n  •  **Function : **Get your current Unapproved message\
-        \n\n  •  **Syntax :** `.reset pm_msg`\
-        \n  •  **Function : **Get your remove your Unapproved message\
-        \n\n **Custom unapproved message currently not able to set**\
-        \n formated text like bold, underline, link, etc\
-        \n Message will send in monoscape only\
-    "
+        "pmpermit": "**Modules** `approve`"
+        "\n\n  •  **Syntax :** `.approve`"
+        "\n  •  **Function : **Approves the mentioned/replied person to PM."
+        "\n\n  •  **Syntax :** `.disapprove`"
+        "\n  •  **Function : **Disapproves the mentioned/replied person to PM."
+        "\n\n  •  **Syntax :** `.block`"
+        "\n  •  **Function : **Blocks the person."
+        "\n\n  •  **Syntax :** `.unblock`"
+        "\n  •  **Function : **Unblocks the person so they can PM you."
+        "\n\n  •  **Syntax :** `.notifoff`"
+        "\n  •  **Function : **Clears/Disables any notifications of unapproved PM."
+        "\n\n  •  **Syntax :** `.notifon`"
+        "\n  •  **Function : **Allows notifications for unapproved PM."
+        "\n\n  •  **Syntax :** `.set pm_msg` <reply to msg>"
+        "\n  •  **Function : **Set your own Unapproved message."
+        "\n\n  •  **Syntax :** `.get pm_msg`"
+        "\n  •  **Function : **Get your current Unapproved message."
+        "\n\n  •  **Syntax :** `.reset pm_msg`"
+        "\n  •  **Function : **Get your remove your Unapproved message."
+        "\n\n **Custom unapproved message currently not able to set**."
+        "\n formated text like bold, underline, link, etc."
+        "\n Message will send in monoscape only."
     }
 )
