@@ -178,18 +178,18 @@ async def amireallyalivereset(ureset):
 CMD_HELP.update(
     {
         "alive": "**Modules** `alive`\
-        \n\n  **Syntax :** `.system`\
-        \n  **Function : **Shows system information using neofetch\
-        \n\n  **Syntax :** `.botver`\ 
-        \n  **Function : **Shows the userbot version\
-        \n\n  **Syntax :** `.pip` <module(s)>\
-        \n  **Function : **Does a search of pip modules(s)\
-        \n\n  **Syntax :** `.alive`\
-        \n  **Function : **Type `.alive` to see wether your userbot is working or not\
-        \n\n  **Syntax :** `.aliveu` <text>\
-        \n  **Function : **Changes the 'user' in alive to the text you want\
-        \n\n  **Syntax :** `.resetalive`\
-        \n  **Function : **Resets the user to default\
+        \n\n  •  **Syntax :** `.system`\
+        \n  •  **Function : **Shows system information using neofetch\
+        \n\n  •  **Syntax :** `.botver`\ 
+        \n  •  **Function : **Shows the userbot version\
+        \n\n  •  **Syntax :** `.pip` <module(s)>\
+        \n  •  **Function : **Does a search of pip modules(s)\
+        \n\n  •  **Syntax :** `.alive`\
+        \n  •  **Function : **Type `.alive` to see wether your userbot is working or not\
+        \n\n  •  **Syntax :** `.aliveu` <text>\
+        \n  •  **Function : **Changes the 'user' in alive to the text you want\
+        \n\n  •  **Syntax :** `.resetalive`\
+        \n  •  **Function : **Resets the user to default\
     "
     }
 )
