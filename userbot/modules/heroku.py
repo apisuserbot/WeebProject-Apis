@@ -189,16 +189,16 @@ async def dyno_usage(dyno):
 CMD_HELP.update(
     {
         "heroku": "**Modules** `heroku`\
-        \n\n  **Syntax :** `.usage`\
-        \n  **Function : **Check your heroku dyno hours remaining\
-        \n\n  **Syntax :**`.set var` <NEW VAR> <VALUE>\
-        \n  **Function : **add new variable or update existing value variable\
+        \n\n  •  **Syntax :** `.usage`\
+        \n  •  **Function : **Check your heroku dyno hours remaining\
+        \n\n  •  **Syntax :**`.set var` <NEW VAR> <VALUE>\
+        \n  •  **Function : **add new variable or update existing value variable\
         \n !!! WARNING !!!, after setting a variable the bot will restarted\
-        \n\n  **Syntax :** `.get var` or .get var` <VAR>\
-        \n  **Function : **get your existing varibles, use it only on your private group!\
+        \n\n  •  **Syntax :** `.get var` or .get var` <VAR>\
+        \n  •  **Function : **get your existing varibles, use it only on your private group!\
         \n This returns all of your private information, please be caution...\
-        \n\n  **Syntax :** `.del var` <VAR>\
-        \n  **Function : **delete existing variable\
+        \n\n  •  **Syntax :** `.del var` <VAR>\
+        \n  •  **Function : **delete existing variable\
         \n !!! WARNING !!!, after deleting variable the bot will restarted\
     "
     }
