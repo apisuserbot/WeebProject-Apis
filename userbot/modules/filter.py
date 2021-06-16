@@ -148,17 +148,16 @@ async def filters_active(event):
 
 CMD_HELP.update(
     {
-        "filter": "**Modules** `filter`\
-        \n\n  •  **Syntax :** `.filters`\
-        \n  •  **Function : **Lists all active userbot filters in a chat\
-        \n\n  •  **Syntax :** `.filter` <keyword> <reply text> or reply to a message with or `.filter` <keyword>\
-        \n  •  **Function : **Saves the replied message as a reply to the 'keyword'\
-        \n\n The bot will reply to the message whenever 'keyword' is mentioned\
-        \n Works with everything from files to stickers\
-        \n\n  •  **Syntax :** `.stop` <filter>\
-        \n  •  **Function : **Stops the specified filter\
-        \n\n  •  **Syntax :** `.rmbotfilters` <marie/rose>\
-        \n  •  **Function : **Removes all filters of admin bots (Currently supported: Marie, Rose and their clones) in the chat\
-    "
+        "filter": "**Modules** `filter`"
+        "\n\n  •  **Syntax :** `.filters`"
+        "\n  •  **Function : **Lists all active userbot filters in a chat."
+        "\n\n  •  **Syntax :** `.filter` <keyword> <reply text> or reply to a message with or `.filter` <keyword>"
+        "\n  •  **Function : **Saves the replied message as a reply to the 'keyword'"
+        "\n\n The bot will reply to the message whenever 'keyword' is mentioned."
+        "\n Works with everything from files to stickers."
+        "\n\n  •  **Syntax :** `.stop` <filter>"
+        "\n  •  **Function : **Stops the specified filter."
+        "\n\n  •  **Syntax :** `.rmbotfilters` <marie/rose>"
+        "\n  •  **Function : **Removes all filters of admin bots (Currently supported: Marie, Rose and their clones) in the chat."
     }
 )
