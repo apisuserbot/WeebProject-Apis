@@ -151,7 +151,7 @@ async def del_welcome(event):
 
 CMD_HELP.update(
     {
-        "welcome": "**Modules :** `welcome`"
+        "welcome": "**Modules** `welcome`"
         "\n\n  •  **Syntax :** <Welcome Message> or reply to a message with `.savewelcome`"
         "\n  •  **Function : **Saves the Message as a Welcome note in the chat."
         "\n\n  •  **Notes :** Available variables for formatting Welcome Messages :"
