@@ -95,15 +95,14 @@ async def list_blacklist(event):
 
 CMD_HELP.update(
     {
-        "blacklist": "**Modules** `blacklist`\
-        \n\n  •  **Syntax :** `.blacklist` <username/id>\
-        \n  •  **Function : **Blacklists provided chat\
-        \n\n  •  **Syntax :** `.unblacklist` <username/id>\
-        \n  •  **Function : **Removes provided chat from blacklist\
-        \n\n  •  **Syntax :** `.unblacklist all`\
-        \n  •  **Function : **Removes all chats from blacklist\
-        \n\n  •  **Syntax :** `.blacklists`\
-        \n  •  **Function : **Lists all blacklisted chats\
-    "
+        "blacklist": "**Modules** `blacklist`"
+        "\n\n  •  **Syntax :** `.blacklist` <username/id>"
+        "\n  •  **Function : **Blacklists provided chat."
+        "\n\n  •  **Syntax :** `.unblacklist` <username/id>"
+        "\n  •  **Function : **Removes provided chat from blacklist."
+        "\n\n  •  **Syntax :** `.unblacklist all`"
+        "\n  •  **Function : **Removes all chats from blacklist."
+        "\n\n  •  **Syntax :** `.blacklists`"
+        "\n  •  **Function : **Lists all blacklisted chats."
     }
 )
