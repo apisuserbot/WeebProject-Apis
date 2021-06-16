@@ -953,36 +953,35 @@ async def get_bots(show):
 
 CMD_HELP.update(
     {
-        "admin": "**Modules** `admin`\
-        \n\n  **Syntax :** `.promote` <username/reply> <custom rank (optional)>\
-        \n  **Function : **Provides admin rights to the person in the chat\
-        \n\n  **Syntax :** `.demote` <username/reply>\
-        \n  **Function : **Revokes the person's admin permissions in the chat\
-        \n\n  **Syntax :** `.ban` <username/reply> <reason (optional)>\
-        \n  **Function : **Bans the person off your chat\
-        \n\n  **Syntax :** `.unban` <username/reply>\
-        \n  **Function : **Removes the ban from the person in the chat\
-        \n\n  **Syntax :** `.mute` <username/reply> <reason (optional)>\
-        \n  **Function : **Mutes the person in the chat, works on admins too\
-        \n\n  **Syntax :** `.unmute` <username/reply>\
-        \n  **Function : **Removes the person from the muted list\
-        \n\n  **Syntax :** `.gmute` <username/reply> <reason (optional)>\
-        \n  **Function : **Mutes the person in all groups you have in common with them\
-        \n\n  **Syntax :** `.ungmute` <username/reply>\
-        \n  **Function : **Reply someone's message with `.ungmute` to remove them from the gmuted list\
-        \n\n  **Syntax :** `.zombies`\
-        \n  **Function : **Searches for deleted accounts in a group\
-        \n Use `.zombies clean` to remove deleted accounts from the group\
-        \n\n  **Syntax :** `.all`\
-        \n  **Function : **Tag all member in the group chat\
-        \n\n  **Syntax :** `.admins`\
-        \n  **Function : **Retrieves a list of admins in the chat\
-        \n\n  **Syntax :** `.bots`\
-        \n  **Function : **Retrieves a list of bots in the chat\
-        \n\n  **Syntax :** `.users` or `.users` <name of member>\
-        \n  **Function : **Retrieves all (or queried) users in the chat\
-        \n\n  **Syntax :** `.setgppic` <reply to image>\
-        \n  **Function : **Changes the group's display picture\
-    "
+        "admin": "**Modules** `admin`"
+        "\n\n  **Syntax :** `.promote` <username/reply> <custom rank (optional)>"
+        "\n  **Function : **Provides admin rights to the person in the chat."
+        "\n\n  **Syntax :** `.demote` <username/reply>"
+        "\n  **Function : **Revokes the person's admin permissions in the chat."
+        "\n\n  **Syntax :** `.ban` <username/reply> <reason (optional)>"
+        "\n  **Function : **Bans the person off your chat."
+        "\n\n  **Syntax :** `.unban` <username/reply>"
+        "\n  **Function : **Removes the ban from the person in the chat."
+        "\n\n  **Syntax :** `.mute` <username/reply> <reason (optional)>"
+        "\n  **Function : **Mutes the person in the chat, works on admins too."
+        "\n\n  **Syntax :** `.unmute` <username/reply>"
+        "\n  **Function : **Removes the person from the muted list."
+        "\n\n  **Syntax :** `.gmute` <username/reply> <reason (optional)>"
+        "\n  **Function : **Mutes the person in all groups you have in common with them."
+        "\n\n  **Syntax :** `.ungmute` <username/reply>"
+        "\n  **Function : **Reply someone's message with `.ungmute` to remove them from the gmuted list."
+        "\n\n  **Syntax :** `.zombies`"
+        "\n  **Function : **Searches for deleted accounts in a group."
+        "\n Use `.zombies clean` to remove deleted accounts from the group."
+        "\n\n  **Syntax :** `.all`"
+        "\n  **Function : **Tag all member in the group chat."
+        "\n\n  **Syntax :** `.admins`"
+        "\n  **Function : **Retrieves a list of admins in the chat."
+        "\n\n  **Syntax :** `.bots`"
+        "\n  **Function : **Retrieves a list of bots in the chat."
+        "\n\n  **Syntax :** `.users` or `.users` <name of member>"
+        "\n  **Function : **Retrieves all (or queried) users in the chat."
+        "\n\n  **Syntax :** `.setgppic` <reply to image>"
+        "\n  **Function : **Changes the group's display picture."
     }
 )
