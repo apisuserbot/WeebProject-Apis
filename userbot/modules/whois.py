@@ -163,8 +163,8 @@ async def fetch_info(replied_user, event):
 CMD_HELP.update(
     {
         "whois": "**Modules** `whois`\
-        \n\n  **Syntax :** `.whois` <username> or reply to someones text with `.whois`\
-        \n  **Function : **Gets info of an user\
+        \n\n  • **Syntax :** `.whois` <username> or reply to someones text with `.whois`\
+        \n  • **Function : **Gets info of an user\
     "
     }
 )
