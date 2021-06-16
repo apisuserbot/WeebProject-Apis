@@ -315,18 +315,18 @@ async def twrp(request):
 CMD_HELP.update(
     {
         "android": "**Modules** `android`\
-         \n\n  **Syntax :** `.magisk`\
-         \n  **Function : **Get latest Magisk releases\
-         \n\n  **Syntax :** `.device` <codename>\
-         \n  **Function : **Get info about android device codename or model\
-         \n\n  **Syntax :** `.codename` <brand> <device>\
-         \n  **Function : **Search for android device codename\
-         \n\n  **Syntax :** `.pixeldl` **<download.pixelexperience.org>**\
-         \n  **Function : **Download pixel experience ROM into your userbot server\
-         \n\n  **Syntax :** `.specs` <brand> <device>\
-         \n  **Function : **Get device specifications info\
-         \n\n  **Syntax :** `.twrp` <codename>\
-         \n  **Function : **Get latest twrp download for android device\
+         \n\n  •  **Syntax :** `.magisk`\
+         \n  •  **Function : **Get latest Magisk releases\
+         \n\n  •  **Syntax :** `.device` <codename>\
+         \n  •  **Function : **Get info about android device codename or model\
+         \n\n  •  **Syntax :** `.codename` <brand> <device>\
+         \n  •  **Function : **Search for android device codename\
+         \n\n  •  **Syntax :** `.pixeldl` **<download.pixelexperience.org>**\
+         \n  •  **Function : **Download pixel experience ROM into your userbot server\
+         \n\n  •  **Syntax :** `.specs` <brand> <device>\
+         \n  •  **Function : **Get device specifications info\
+         \n\n  •  **Syntax :** `.twrp` <codename>\
+         \n  •  **Function : **Get latest twrp download for android device\
     "
     }
 )
