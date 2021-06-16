@@ -80,18 +80,17 @@ async def spammer(e):
 
 CMD_HELP.update(
     {
-        "spam": "**Modules** `spam`\
-        \n\n  •  **Syntax :** `.cspam` <text>\
-        \n  •  **Function : **Spam the text letter by letter\
-        \n\n  •  **Syntax :** `.spam` <count> <text>\
-        \n  •  **Function : **Floods text in the chat !!\
-        \n\n  •  **Syntax :** `.wspam` <text>\
-        \n  •  **Function : **Spam the text word by word\
-        \n\n  •  **Syntax :** `.picspam` <count> <link to image/gif>\
-        \n  •  **Function : **As if text spam was not enough !!\
-        \n\n  •  **Syntax :** `.delayspam` <delay> <count> <text>\
-        \n  •  **Function : **`.bigspam` but with custom delay\
-        \n\n\n  **NOTE :** __Spam at your master risk !!__\
-    "
+        "spam": "**Modules** `spam`"
+        "\n\n  •  **Syntax :** `.cspam` <text>"
+        "\n  •  **Function : **Spam the text letter by letter."
+        "\n\n  •  **Syntax :** `.spam` <count> <text>"
+        "\n  •  **Function : **Floods text in the chat !!"
+        "\n\n  •  **Syntax :** `.wspam` <text>"
+        "\n  •  **Function : **Spam the text word by word."
+        "\n\n  •  **Syntax :** `.picspam` <count> <link to image/gif>"
+        "\n  •  **Function : **As if text spam was not enough !!"
+        "\n\n  •  **Syntax :** `.delayspam` <delay> <count> <text>"
+        "\n  •  **Function : **`.bigspam` but with custom delay."
+        "\n\n\n  **NOTE :** __Spam at your master risk !!__"
     }
 )
