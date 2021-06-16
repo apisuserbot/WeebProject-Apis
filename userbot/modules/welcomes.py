@@ -152,16 +152,16 @@ async def del_welcome(event):
 CMD_HELP.update(
     {
         "welcome": "**Modules** `welcome`\ 
-        \n\n  **Syntax :** <welcome message> or reply to a message with `.savewelcome`\
-        \n  **Function : **Saves the message as a welcome note in the chat\
-        \n\n  **Notes :** Available variables for formatting welcome messages :\
-        \n  **Format Welcome This Chat** {mention}, {title}, {count}, {first}, {last}, {fullname},\
-        \n  **Format Welcome This Chat** {userid}, {username}, {my_first}, {my_fullname}, {my_last},\
-        \n  **Format Welcome This Chat** {my_mention}, {my_username}\
-        \n\n  **Syntax :** `.checkwelcome`\
-        \n  **Function : **Check whether you have a welcome note in the chat\
-        \n\n  **Syntax :** `.rmwelcome`\
-        \n  **Function : **Deletes the welcome note for the current chat\
+        \n\n  •  **Syntax :** <welcome message> or reply to a message with `.savewelcome`\
+        \n  •  **Function : **Saves the message as a welcome note in the chat\
+        \n\n  •  **Notes :** Available variables for formatting welcome messages :\
+        \n  •  **Format Welcome This Chat** {mention}, {title}, {count}, {first}, {last}, {fullname},\
+        \n\n  •  **Format Welcome This Chat** {userid}, {username}, {my_first}, {my_fullname}, {my_last},\
+        \n  •  **Format Welcome This Chat** {my_mention}, {my_username}\
+        \n\n  •  **Syntax :** `.checkwelcome`\
+        \n  •  **Function : **Check whether you have a welcome note in the chat\
+        \n\n  •  **Syntax :** `.rmwelcome`\
+        \n  •  **Function : **Deletes the welcome note for the current chat\
     "
     }
 )
