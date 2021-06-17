@@ -16,7 +16,6 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/apisuserbot/WeebProject-Apis?&style=plastic&logo=github)](https://GitHub.com/apisuserbot/WeebProject-Apis/graphs/contributors/)
 <p align="justify">
 <a href="https://github.com/apisuserbot/WeebProject-Apis/commits/WeebProject-Apis"><img src="https://img.shields.io/github/last-commit/apisuserbot/WeebProject-Apis?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
-<a href="https://github.com/apisuserbot/WeebProject-Apis/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/apisuserbot/King-Ubot/CI/WeebProject-Apis?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
 </p>
 <p align="justify">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
