@@ -20,27 +20,28 @@
 </p>
 <p align="justify">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
-<img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.2-white?style=for-the-badge&logo=appveyor"/>
+<img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.5-white?style=for-the-badge&logo=appveyor"/>
 </p>
 
 ![Weeb Project](https://telegra.ph/file/477415d5e5fa928e7f39c.jpg)
 
 ### Group Support 🇮🇩
 `
-Klik tombol di bawah untuk join ke group support kami`
+Click the button below to join our support group`
    <a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Grup%20Support%3F-King-red?&style=flat-square?&logo=telegram" width=170px></a></p>
 
 __Repository create by [Apis](https://t.me/PacarFerdilla)__
 
 ### String Session 🖇
 `
-Klik tombol di samping untuk membuat string milikmu`
+Click the button next to create your strings`
    [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@apisuserbot/String-Session?v=1)
 
 ### Deploy to Heroku
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/WeebProject-Apis/tree/main"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 © Special credit
+
 Thank you very so much 🙏
 
 •   [Bian Sepang](https://github.com/BianSepang) - WeebProject
