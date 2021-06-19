@@ -1,6 +1,8 @@
 <i>beta version ( userbot )</i>
 
-<b>released fixes WeebProject-Apis</b>
+Featurs :
+•  beta version v0.0.1
+•  userbot
 
 ```
 Contoh Code :
