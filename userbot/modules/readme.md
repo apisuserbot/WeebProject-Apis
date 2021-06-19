@@ -1,7 +1,6 @@
 <i>beta version ( userbot )</i>
 
 <b>released fixes WeebProject-Apis</b>
-<i>project by Apis</i>
 
 ```
 Contoh Code :
