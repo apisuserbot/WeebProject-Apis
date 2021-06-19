@@ -2,8 +2,7 @@
 
 Featurs : 
 
-•  beta version v0.0.1 
-•  userbot
+•  beta version v0.0.1  userbot
 
 ```
 Contoh Code :
@@ -14,7 +13,7 @@ async def typewriter(typew):
      await typew.edit("`Hello World`")
 
 ```
-Welcome new user! 
+Welcome new user , Enjoyed the Userbot:)
 
 Thank you 🎉
 
