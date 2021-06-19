@@ -1,10 +1,10 @@
 <i>beta version ( userbot )</i>
 
-**released fixes WeebProject-Apis**
-**project by Apis**
+<b>released fixes WeebProject-Apis</b>
+<i>project by Apis</i>
 
 ```
-**Contoh Code :**
+Contoh Code :
 
 @register(outgoing=True, pattern="^.Hello(?: |$)")
 async def typewriter(typew):
