@@ -269,7 +269,6 @@ async def check_alive():
     await bot.send_message(BOTLOG_CHATID, "**⚡WeebProject-Apis⚡** ```Has Been Active!```")
     return
 
-
 with bot:
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
