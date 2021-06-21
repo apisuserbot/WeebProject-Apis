@@ -7,6 +7,8 @@ Features :
 ```
 Example Code :
 
+from userbot import register
+
 @register(outgoing=True, pattern="^.Hello(?: |$)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
