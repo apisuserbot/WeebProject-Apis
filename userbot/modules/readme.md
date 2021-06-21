@@ -5,8 +5,6 @@ Features :
 •  beta version v0.0.1  userbot
 
 ```
-Example Code :
-
 from userbot import register
 
 @register(outgoing=True, pattern="^.Hello(?: |$)")
