@@ -75,6 +75,7 @@ async def pingme(pong):
 CMD_HELP.update(
     {
         "ping": "**Modules** `ping`"
+        "\n\n ✘  Command Available"
         "\n\n  •  **Syntax :** `.speedtest`"
         "\n  •  **Function : **Does a speedtest and shows the results."
         "\n\n  •  **Syntax :** `.dc`"
