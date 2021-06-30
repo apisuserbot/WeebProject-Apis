@@ -19,7 +19,7 @@ async def help(event):
         else:
             await event.edit("**Error!**`{args}` **not a valid module name**")
     else:
-        head = "`Please specify which module do you want help for!`\n\n_________________________________\n\n"
+        head = "`Please specify which module do you want help for!`"
         head2 = f"__**Loaded Modules :**__ `{len(CMD_HELP)}`"
         head3 = "__**Function :**__ `.help` <module name>"
         head4 = "**List for all available command below :** "
