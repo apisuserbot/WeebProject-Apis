@@ -1,12 +1,13 @@
 {
   "name": "WeebProject UserBot",
   "description": "[WeebProject] A modular Telegram userbot running on Python 3.9.2",
+  "logo": "https://telegra.ph/file/477415d5e5fa928e7f39c.jpg",
   "keywords": [
     "telegram",
     "userbot",
     "plugin",
-    "modular",
-    "productivity"
+    "project",
+    "python"
   ],
   "repository": "https://github.com/apisuserbot/WeebProject-Apis",
   "website": "https://t.me/KingUserbotSupport",
