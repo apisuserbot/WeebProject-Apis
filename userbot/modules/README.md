@@ -7,6 +7,9 @@ Features :
 Example Code :
 
 -----------
+
+.. code-block:: python
+
 from userbot import register
 
 @register(outgoing=True, pattern="^.Hello(?: |$)")
