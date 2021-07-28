@@ -5,7 +5,6 @@ Features :
 •  beta version v0.0.1  userbot
 
 Example Code :
-
 -----------
 
 .. code-block:: python
@@ -17,6 +16,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Hello World`")
 
+Thanks!
 -----------
 
 Welcome new user , Enjoyed the Userbot:)
