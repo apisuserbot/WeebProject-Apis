@@ -128,6 +128,10 @@ DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
+# Inline bot helper
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or None
+BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
+
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
 LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
