@@ -148,7 +148,7 @@
     },
     "LOGSPAMMER": {
       "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
-      "value": "True"
+      "value": "False"
     },
     "DEEZER_ARL_TOKEN": {
       "description": "Input your DEEZER ARL TOKEN",
@@ -159,13 +159,23 @@
       "description": "Display user for .term command",
       "value": "WeebProject",
       "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "Inline Mode Helper In Menu",
+      "value": "Fill in your Bot Token",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Inline Mode Helper In Username Menu Without @",
+      "value": "Fill in your Bot Username Without @",
+      "required": false
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "13"
       }
     }
   ]
