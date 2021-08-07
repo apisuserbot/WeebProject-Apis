@@ -366,8 +366,8 @@ with bot:
         me = bot.get_me()
         uid = me.id
 
-       logo = ALIVE_LOGO
-       modules = CMD_HELP
+        logo = ALIVE_LOGO
+        modules = CMD_HELP
 
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
@@ -399,7 +399,7 @@ with bot:
             if event.query.user_id == uid and query.startswith("@Python"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
-                    "Harap Gunakan .help Untuk Perintah",
+                    "Please Use .help For Command",
                     text="{}\n\n**• Number of Modules Available :** `{}`\n               \n**• List Modules WeebProject-Apis :** \n".format(
                         "**• WeebProject-Apis**",
                         len(dugmeler),
