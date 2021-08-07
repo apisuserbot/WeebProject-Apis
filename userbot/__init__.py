@@ -317,6 +317,7 @@ AFKREASON = None
 
 # ---------------------------------InlineBot-------------------------------------->
 
+
 def paginate_help(page_number, loaded_modules, prefix):
     number_of_rows = 5
     number_of_cols = 4
@@ -361,10 +362,30 @@ with bot:
         me = bot.get_me()
         uid = me.id
 
+       logo = ALIVE_LOGO
+       modules = CMD_HELP
+
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Bot, Create Your Own Userbot [Click Here](https://github.com/apisuserbot/WeebProject-Apis.git)")
+                u = await event.client.get_entity(event.chat_id)
+                await event.message.get_sender()
+                text = (
+                    f"**You Can Create Own Userbot Here** \n\n"
+                    f"**List of Files in Userbot :** \n"
+                    f"**• Modules :** `{len(modules)}` \n"
+                    f"**• Languange Example :** `Python` ") 
+                await king.tgbot.send_file(event.chat_id, file=logo,
+                                           caption=text,
+                                           buttons=[
+                                               [
+                                                   custom.Button.url(
+                                                       text="Click Here",
+                                                       url=f"https://github.com/apisuserbot/WeebProject-Apis"
+                                               )
+                                               ]
+                                           ]
+                                           )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
