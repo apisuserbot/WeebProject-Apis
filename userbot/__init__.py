@@ -379,7 +379,7 @@ with bot:
                     f"**List of Files in Userbot :** \n"
                     f"**• Modules :** `{len(modules)}` \n"
                     f"**• Languange Example :** `Python` ") 
-                await king.tgbot.send_file(event.chat_id, file=logo,
+                await tgbot.send_file(event.chat_id, file=logo,
                                            caption=text,
                                            buttons=[
                                                [
@@ -396,7 +396,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@UserButt"):
+            if event.query.user_id == uid and query.startswith("@Python"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
