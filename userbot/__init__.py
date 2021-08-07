@@ -17,7 +17,8 @@ from pylast import LastFMNetwork, md5
 from pySmartDL import SmartDL
 from dotenv import load_dotenv
 from requests import get
-from telethon import TelegramClient, version
+from telethon.sync import TelegramClient, custom, events
+from telethon import version
 from telethon.sessions import StringSession
 
 load_dotenv("config.env")
