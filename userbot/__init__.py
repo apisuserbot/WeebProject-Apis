@@ -25,6 +25,15 @@ from telethon.utils import get_display_name
 
 load_dotenv("config.env")
 
+
+StartTime = time.time()
+
+CMD_LIST = {}
+# for later purposes
+CMD_HELP = {}
+INT_PLUG = ""
+LOAD_PLUG = {}
+
 # Bot Logs setup:
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 
