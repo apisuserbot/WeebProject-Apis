@@ -414,7 +414,8 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@Python"):
+            if event.query.user_id == uid and query.startswith(
+                    "@KingUserbotSupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=logo,
@@ -426,21 +427,21 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Help WeebProject-Apis ",
+                    "Helper WeebProject-Apis ",
                     text="List Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**WeebProject-Apis**",
+                    "Userbot",
                     text="""**You Can Make WeebProject-Apis Your Own Way :** [Click Here](t.me/KingUserbotSupport)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo WeebProject-Apis",
+                                "Repository",
                                 "https://github.com/apisuserbot/WeebProject-Apis"),
                             custom.Button.url(
-                                "Developer Project",
+                                "Developer",
                                 "t.me/PacarFerdilla")],
                     ],
                     link_preview=False,
