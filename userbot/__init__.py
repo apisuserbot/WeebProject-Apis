@@ -20,6 +20,8 @@ from requests import get
 from telethon.sync import TelegramClient, custom, events
 from telethon import version
 from telethon.sessions import StringSession
+from telethon import Button, functions, types
+from telethon.utils import get_display_name
 
 load_dotenv("config.env")
 
