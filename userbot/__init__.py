@@ -322,6 +322,8 @@ CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
 
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+
 # ---------------------------------InlineBot-------------------------------------->
 
 
