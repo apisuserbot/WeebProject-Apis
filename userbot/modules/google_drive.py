@@ -39,7 +39,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 from telethon import events
 
-import userbot.modules.sql_helper.google_drive_sql as helper
+from userbot.modules.sql_helper import google_drive_sql as helper
 from userbot import (
     BOTLOG_CHATID,
     CMD_HELP,
