@@ -399,14 +399,13 @@ with bot:
             query = event.text
             if event.query.user_id == uid and query.startswith("@Python"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.article(
-                    "Please Use .help For Command",
-                    text="{}\n\n**• Number of Modules Available :** `{}`\n               \n**• List Modules WeebProject-Apis :** \n".format(
-                        "**• WeebProject-Apis**",
+                result = builder.photo(
+                    file=logo,
+                    link_preview=False,
+                    text=f"\n**Inline Helper Bot**\n\n**User** {DEFAULTUSER}\n**Version Bot :** `v{BOT_VER}`\n**modules :** `{len(modules)}`\n\n**Thanks Your Deploy WeebProject-Apis!**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
-                    link_preview=False,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
