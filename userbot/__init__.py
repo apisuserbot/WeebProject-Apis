@@ -334,6 +334,7 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
+ZALG_LIST = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
