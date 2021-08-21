@@ -422,7 +422,7 @@ with bot:
                 result = builder.photo(
                     file=logo,
                     link_preview=False,
-                    text=f"\n**Inline Helper Bot**\n\n**User** {DEFAULTUSER}\n**Version Bot :** `v{BOT_VER}`\n**modules :** `{len(modules)}`\n\n**Thanks Your Deploy WeebProject-Apis!**".format(
+                    text=f"\n**Inline Helper Bot**\n\n**User** {DEFAULTUSER}\n**Version Userbot :** `v{BOT_VER}`\n**Modules :** `{len(modules)}`\n\n**Thanks Your Deploy WeebProject-Apis!**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -520,7 +520,7 @@ with bot:
     except BaseException:
         LOGS.info(
             "You Inline Bot Mode Off"
-            "To Activate Go To @BotFather, then settings bot >>select mode  inline >> Turn On")
+            "To Activate Go To @BotFather, then settings bot >> select mode  inline >> Turn On")
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
     except BaseException:
